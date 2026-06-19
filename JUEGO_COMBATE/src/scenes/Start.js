@@ -11,7 +11,7 @@ export class Start extends Phaser.Scene {
         this.load.svg('jump', 'assets/vector/characters/character_beige_jump.svg');
         this.load.svg('hit', 'assets/vector/characters/character_beige_hit.svg');
 
-        this.load.image('fondo', 'assets/sprites/backgrounds/default/background_color_hills.png');
+            this.load.image('fondo', 'assets/sprites/backgrounds/default/background_color_hills.png');
     }
 
     create() {
